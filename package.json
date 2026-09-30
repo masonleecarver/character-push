@@ -1,0 +1,28 @@
+{
+  "name": "character-push",
+  "version": "1.0.0",
+  "description": "Push you characters to tumblr sexyman land",
+  "keywords": [
+    "characters",
+    "stories",
+    "funny"
+  ],
+  "homepage": "https://github.com/masonleecarver/character-push#readme",
+  "bugs": {
+    "url": "https://github.com/masonleecarver/character-push/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masonleecarver/character-push.git"
+  },
+  "license": "ISC",
+  "author": "Lennie Carver",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "start"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
