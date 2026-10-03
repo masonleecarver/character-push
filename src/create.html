@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/create.js" type="module"></script>
+    <title>Create a Character</title>
+</head>
+<body>
+    <header id="main-header"></header>
+    <main>
+        <h2>Create a Character!</h2>
+
+        <div class="button-div">
+            <button id="make-own">Do it from scratch</button>
+            <button id="generate">Get some help</button>
+        </div>
+        
+
+        <form id="character-form" method="push">
+            <fieldset>
+                <legend>Basics!</legend>
+                <label>Name: <input type="text" name="char-name" id="char-name" required></label>
+                <label>Age: <input type="text" name="char-age" id="char-age"></label>
+                <label>Personality Type: <input type="text" name="mbti" id="mbti"></label>
+                <label>Enneagram: <input type="text" name="enam" id="enam"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Personality Traits</legend>
+                <ul id="traits">
+                    <li><input type="text" name="trait1" id="trait1" required></li>
+                    <li><input type="text" name="trait2" id="trait2"></li>
+                    <li><input type="text" name="trait3" id="trait3"></li>
+                    <li><input type="text" name="trait4" id="trait4"></li>
+                    <li><input type="text" name="trait5" id="trait5"></li>
+                    <li><input type="text" name="trait6" id="trait6"></li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Hobbies</legend>
+                <ul id="hobbies">
+                    <li><input type="text" name="hobby1" id="hobby1" required></li>
+                    <li><input type="text" name="hobby2" id="hobby2"></li>
+                    <li><input type="text" name="hobby3" id="hobby3"></li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Story Stuff</legend>
+                <label>Desires: 
+                    <ul id="desires">
+                        <li><input type="text" name="desire1" id="desire1" required></li>
+                        <li><input type="text" name="desire2" id="desire2"></li> 
+                    </ul>
+                </label>
+
+                <label>Biggest Roadblock: <input type="text" name="block" id="block" required></label>
+
+            </fieldset>
+
+            <button type="submit">Ready to Save</button>
+        </form>
+    </main>
+
+    <footer id="main-footer"></footer>
+</body>
+</html>
