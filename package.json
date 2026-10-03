@@ -20,7 +20,8 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.2.1"

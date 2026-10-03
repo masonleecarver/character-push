@@ -13,18 +13,18 @@
         <h2>Create a Character!</h2>
 
         <div class="button-div">
-            <button id="make-own">Do it from scratch</button>
-            <button id="generate">Get some help</button>
+            <button id="make-own" class="normal-button">Do it from scratch</button>
+            <button id="generate" class="normal-button">Get some help</button>
         </div>
         
 
         <form id="character-form" method="push">
             <fieldset>
                 <legend>Basics!</legend>
-                <label>Name: <input type="text" name="char-name" id="char-name" required></label>
-                <label>Age: <input type="text" name="char-age" id="char-age"></label>
-                <label>Personality Type: <input type="text" name="mbti" id="mbti"></label>
-                <label>Enneagram: <input type="text" name="enam" id="enam"></label>
+                <label>Name: <input type="text" name="name" required></label>
+                <label>Age: <input type="text" name="age"></label>
+                <label>Personality Type: <input type="text" name="mbti"></label>
+                <label>Enneagram: <input type="text" name="enam"></label>
             </fieldset>
 
             <fieldset>
@@ -59,9 +59,11 @@
 
                 <label>Biggest Roadblock: <input type="text" name="block" id="block" required></label>
 
+                <input type="hidden" name="backstory" id="backstory">
+
             </fieldset>
 
-            <button type="submit">Ready to Save</button>
+            <button type="submit" class="normal-button">Ready to Save</button>
         </form>
     </main>
 
